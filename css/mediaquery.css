@@ -1,4 +1,4 @@
-@media (min-width:0px)and (max-width:767px) {
+@media (min-width:0px)and (max-width:480px) {
     .about{
     font-weight: 800;
     }
@@ -14,7 +14,7 @@
     }
 }
 
-@media  (min-width:768px) {
+@media  (min-width:481px) and (max-width:1023px){
     .about{
     font-weight: 400;
     }
@@ -63,13 +63,13 @@
 
 @keyframes slideUp {
 	0% {
-		transform: translateY(100%);
+		transform: translateY(60%);
 	}
 	50%{
 		transform: translateY(-8%);
 	}
 	65%{
-		transform: translateY(4%);
+		transform: translateY(100%);
 	}
 	80%{
 		transform: translateY(-4%);
