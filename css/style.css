@@ -1,0 +1,122 @@
+@font-face {
+    font-family: zniko;
+    src: url(../font/zniko.ttf);   
+    }
+
+.intro{
+    
+    font-size: 24px;
+    font-weight: bold;
+    font-size-adjust: auto;
+    margin:auto;
+    width:500px;
+    font-family:zniko;
+
+}
+
+.youngJames {
+    border-radius: 35%;
+    margin-left:38%;
+    margin-bottom: 100px;
+    margin-top:100px; 
+    z-index: 3;
+}
+.navbar {
+    overflow: hidden;
+    background-color:lightgray;
+    bottom:0px;
+    left:0px;
+    position: fixed;
+    height: 40px;
+    width:100%;
+    border-top: 1px solid black;
+    text-align: center;
+    
+}
+
+.navbar a:link{
+    text-decoration: none;
+    color:black;
+    font-family:zniko;
+    padding:40px;
+    display:inline;
+    font-weight: bold;
+    
+}
+.navbar a:visited{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar a:hover{
+    background-color: slategrey;
+}
+
+.introBackground{
+    width:500px;
+    background-color:palegoldenrod;
+    opacity: .8;
+    margin:auto;
+    padding:60px;
+    height:330px;
+    z-index: -1;
+    
+}
+    
+iframe {
+    margin-left:260px;
+    padding-bottom: 30px;
+}
+.about {
+    width:40%;
+    text-align: center;
+    margin-left: 30%;
+    margin-bottom:10%;
+    background-color: white;
+    border: 1px solid black;
+    font-family:zniko;
+    text-decoration-color: black;
+    font-size: 20px;
+    border-radius: 5px;
+}
+h3 {
+    display: inline-block;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+    background-size:contain;
+}
+.web1 {
+    display:inline-block;
+    margin-bottom:10%;
+    margin-left: auto;
+    
+    
+    
+}
+
+.row {
+    height:300px;
+    margin:0 auto;
+    width:auto;
+}
+
+figure {
+    display:inline-block;
+    width:auto;
+}
+figcaption, h4{
+    text-align:center;
+    font-family: zniko;
+    font-weight:bolder;
+}
+figure img{
+    display:inline-block;
+    width:auto;
+}
+.aboutHead{
+    text-align:center;
+}
